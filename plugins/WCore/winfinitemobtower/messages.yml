@@ -1,0 +1,39 @@
+#
+# PARTY MESSAGES
+#
+
+party-already-invited: "&C&l(!)&C This player is already invited to your party!"
+party-invalid-player: "&c&l(!)&C Invalid player!"
+party-invited-self: "&A&l(!)&A Successfully invited them to your party."
+party-invited-other: "&a&l(!)&A You have been invited to join %player%'s mob tower party! Do /towerparty join %player% to join!"
+already-in-party: "&C&l(!)&C You're already in a mob tower party!"
+not-invited: "&c&l(!)&C You aren't invited to join their party!"
+max-size: "&c&l(!)&C Their party is full!"
+party-join: "&A&l(!)&A %player% has joined the party!"
+no-party: "&C&l(!)&C You are not in a party!"
+kick-not-in: "&C&l(!)&C They aren't in your party!"
+party-not-owner: "&C&l(!)&C Only the owner of the party can do this!"
+party-kick-self: "&A&l(!)&A Successfully kicked them from the party"
+party-kick-other: "&c&l(!)&C You've been kicked from your mob tower party"
+in-mob-tower: "&C&l(!)&C You cannot do this command while in the tower!"
+party-leave: "&a&l(!)&A Successfully left your party"
+party-disband: "&C&l(!)&C Your party has been disbanded!"
+kick-yourself: "&C&l(!)&C You cannot kick yourself!"
+chat-enable: "&A&l(!)&A Enabled party chat"
+chat-disable: "&c&l(!)&c Disabled party chat"
+chat-format: "&b&lPARTY CHAT&f: &f%player%: %chat%"
+
+#
+# TOWER MESSAGES
+#
+floor-clear: "&A&l(!)&A You've cleared this floor, moving on to floor %floor% now!"
+already-in-tower: "&C&l(!)&C You're already in a tower!"
+tower-join: "&A&l(!)&A Joining tower now..."
+tower-finish: "&C&l(!)&C Tower finished at floor %floor%!"
+tower-death: "&C&l(!)&C You've been eliminated!"
+not-in-tower: "&C&l(!)&C You're not in a mob tower!"
+tower-left: "&C&l(!)&C %player% has left the tower!"
+invalid-player: "&C&l(!)&C Invalid player!"
+not-in-tower-kick: "&C&l(!)&C They're not in a tower!"
+score-reset: "&A&l(!)&a Successfully reset their score!"
+tower-join-not-owner: "&C&l(!)&C Only the owner of the party can do this!"

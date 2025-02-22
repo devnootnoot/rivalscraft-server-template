@@ -1,0 +1,30 @@
+menu:
+  name: "&8Patron List"
+  size: 36
+  item-name: "&d%player%"
+  item-lore:
+    - "&7This player has spent $500 or"
+    - "&7more on store.blockhero.net"
+    - "&c&lᴛʜᴀɴᴋꜱ ꜰᴏʀ ʏᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ &c❤"
+  items:
+    2:
+      slot: 31
+      material: "BARRIER"
+      type: "CLOSE"
+      name: "&#FF0000Close"
+      lore:
+        - "&fClick to close"
+    4:
+      slot: 32
+      material: "ARROW"
+      type: "NEXT"
+      name: "&aNext Page"
+      lore:
+        - "&fClick to go to next page"
+    5:
+      slot: 30
+      material: "ARROW"
+      type: "PREVIOUS"
+      name: "&cPrevious Page"
+      lore:
+        - "&fClick to go to previous page"

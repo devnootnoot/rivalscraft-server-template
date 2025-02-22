@@ -1,0 +1,48 @@
+# How often a shop floor should spawn
+shop-floor-interval: 5
+# How often a boss should spawn
+boss-floor-interval: 5
+# The location players will teleport to on death
+finish-location:
+  world: "world"
+  x: 0
+  y: 150
+  z: 0
+
+# Damage and health increase PER player in your party.
+mob-party-increase: 1.1
+# Max size of a party
+mob-party-max-size: 5
+mob-spawn-radius: 5
+
+# The duration in seconds
+shop-duration: 120
+shop-command: "dm open ..."
+# This needs to be reverted because it goes bottom to top.
+# Don't put empty lines, as it'll use the default name of an armor stand.
+shop-hologram:
+  - "&fClick me to open!"
+  - "&f"
+  - "&C&lMOB TOWER SHOP"
+
+leaderboard-skull:
+  name: "&e%player%"
+  lore:
+    - ""
+    - "&fThey have cleared &e%amount% floors!"
+
+
+on-enter-commands:
+  - "msg %player% enter"
+
+on-exit-commands:
+  - "msg %player% exit"
+
+bosses:
+  - "WARDENBOSS"
+
+mobs:
+  1:
+    floors: "1-10"
+    types:
+      - "WARDENBOSS:2:100"

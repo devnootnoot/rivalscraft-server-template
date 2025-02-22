@@ -1,0 +1,20 @@
+menu:
+  name: "&0Confirm Edits"
+  size: 9
+  items:
+    1:
+      material: "LIME_WOOL"
+      name: "&a&lCONFIRM"
+      lore:
+        - ""
+        - "&fClick here to confirm this edit"
+      slot: 3
+      type: "CONFIRM"
+    2:
+      material: "RED_WOOL"
+      name: "&#FF0000&LCANCEL"
+      lore:
+        - ""
+        - "&FClick here to cancel this edit"
+      slot: 5
+      type: "CANCEL"

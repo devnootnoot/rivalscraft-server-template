@@ -1,0 +1,191 @@
+menu:
+  name: "&8Join Messages"
+  size: 27
+  allowed-material: "ENCHANTED_BOOK"
+  not-allowed-material: "BOOK"
+  items:
+    1:
+      name: "#2983DE[&f+#2983DE] &f{player} &r#2983DEhas risen from the dead &f☠"
+      lore:
+        - "&7Unlocked in the Overlord crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.overlord"
+      slot: 0
+    2:
+      name: "#ffde00[&f+#ffde00] &f{player} #ffde00has has come to save the day!"
+      lore:
+        - "&7Unlocked in the Marvel crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.hero"
+      slot: 1
+    3:
+      name: "#ff0022[&f+#ff0022] &f{player} #ff0022is here to destroy the universe!"
+      lore:
+        - "&7Unlocked in the Marvel crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.villain"
+      slot: 2
+    4:
+      name: "#ffdb6b[&f+#ffdb6b] A radiant light shines as &f{player} #ffdb6bascends
+        from the skies!"
+      lore:
+        - "&7Unlocked in the Angels and Demons crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.angel"
+      slot: 3
+    5:
+      name: "#ca0012[&f+#ca0012] The ground trembles as &f{player} #ca0012 emerges
+        from the abyss!"
+      lore:
+        - "&7Unlocked in the Angels and Demons crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.demon"
+      slot: 4
+    6:
+      name: "#ff7700[&f+#ff7700] &f{player} #ff7700has come for your treats!"
+      lore:
+        - "&7Unlocked in the Halloween crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.halloween"
+      slot: 5
+    7:
+      name: "#cf003e[&f+#cf003e] &f{player} #cf003ehas been summoned by the bloodmoon!"
+      lore:
+        - "&7Unlocked in the Halloween candy shop"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.halloweenshop1"
+      slot: 6
+    8:
+      name: "#8513ff[&f+#8513ff] &f{player} #8513ffis here to curse you!"
+      lore:
+        - "&7Unlocked in the Halloween candy shop"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.halloweenshop2"
+      slot: 7
+    9:
+      name: "#301C60[&f+#301C60] &f{player} #301C60has been brought back from the
+        underworld!"
+      lore:
+        - "&7Unlocked from the Halloween Boss"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.necromancer"
+      slot: 8
+    10:
+      name: "#02f726[&f+#02f726] &f{player} #02f726has appeared from the cyber space!"
+      lore:
+        - "&7Unlocked from the Cyber Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.cyber"
+      slot: 9
+    11:
+      name: "#00ACFF[&f+#00ACFF] &f{player} #00ACFFsaid 01110011 01110100 01101001
+        01101110 01101011 01111001!"
+      lore:
+        - "&7Unlocked from the Cyber Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.binary"
+      slot: 10
+    12:
+      name: "#3466AF[&f+#3466AF] &f{player} #3466AFhas come to catch em all!"
+      lore:
+        - "&7Unlocked from the Pokemon Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.pokemon"
+      slot: 11
+    13:
+      name: "#E91E1E[&f+#E91E1E] &f{player} #E91E1Eis prepared for trouble! And make
+        it double!"
+      lore:
+        - "&7Unlocked from the Pokemon Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.pokemon2"
+      slot: 12
+    14:
+      name: "&r#f90b0b[&f+&r#f90b0b] &f{player} &r#f90b0bhas come to wish you a merry
+        christmas!"
+      lore:
+        - "&7Unlocked from the Christmas Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.merrychristmas"
+      slot: 13
+    15:
+      name: "&r#01ab28[&f+&r#01ab28] &f{player} &r#01ab28has come to rock around
+        the Christmas tree!"
+      lore:
+        - "&7Unlocked from the Christmas Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.christmastree"
+      slot: 14
+    16:
+      name: "&r#ff1e00[&f+&r#ff1e00] &f{player} &r#ff1e00has come for a jolly time"
+      lore:
+        - "&7Unlocked from the Christmas Event"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.jolly"
+      slot: 15
+    17:
+      name: "#897ea0[&f+#897ea0] &f{player} #897ea0is here to burn the village!"
+      lore:
+        - "&7Unlocked from the Dragon Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.dragon"
+      slot: 16
+    18:
+      name: "#34d481[&f+#34d481] &f{player} #34d481is here to celebrate the year
+        of the snake!"
+      lore:
+        - "&7Unlocked from the Lunar Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.lunar"
+      slot: 17
+    19:
+      name: "#00b8ff[&f+#00b8ff] &f%player_name% #00b8ffis here to fish!"
+      lore:
+        - "&7Unlocked from the Fish Coin Shop"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.fishing1"
+      slot: 18
+    20:
+      name: "#0043ff[&f+#0043ff] &f%player_name% #0043ffis the biggest fish in the
+        pond!"
+      lore:
+        - "&7Unlocked from the Fish Coin Shop"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.fishing2"
+      slot: 19
+    21:
+      name: "#ff529c[&f+#ff529c] &f{player} #ff529cis single and ready to mingle!"
+      lore:
+        - "&7Unlocked from the Valentine Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.single"
+      slot: 20
+    22:
+      name: "#f4000c[&f+#f4000c] &f{player} #f4000cis here to steal your heart!"
+      lore:
+        - "&7Unlocked from the Valentine Crate"
+        - ""
+        - "&fUnlocked: %locked%"
+      permission: "joinmessage.stealheart"
+      slot: 21

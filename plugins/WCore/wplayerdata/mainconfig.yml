@@ -1,0 +1,26 @@
+homes-message: "&b&lHOMES &f-> &b"
+sethome-invalid-arguments: "&C&l(!)&C Invalid arguments!"
+sethome-invalid-length: "&C&l(!)&C Your home name needs to be at least 3 characters long!"
+sethome-already-exists: "&C&l(!)&C You already have a home named this!"
+sethome-too-many: "&C&l(!)&C You already have the max limit of homes!"
+invalid-kit: "&C&l(!)&C Invalid kit!"
+kit-no-perms: "&C&l(!)&C You do not have permission to claim this kit!"
+kit-cooldown: "&C&l(!)&C You are still on cooldown for %timer%"
+kit-claim: "&a&l(!)&A You have successfully claimed this kit"
+invalid-player: "&C&l(!)&C Invalid player!"
+kit-others-no-perms: "&C&l(!)&C You do not have permission give others kits!"
+kit-others: "&A&l(!)&A Successfully given kit"
+
+# Allow players to have multiple homes.
+# Players need essentials.sethome.multiple before they can have more than 1 home.
+# You can set the default number of multiple homes using the 'default' rank below.
+# To remove the home limit entirely, give people 'essentials.sethome.multiple.unlimited'.
+# To grant different home amounts to different people, you need to define a 'home-rank' below.
+# Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
+# For more information, visit http://wiki.ess3.net/wiki/Multihome
+sethome-multiple:
+  default: 1
+  hero: 5
+  paladin: 10
+  champion: 15
+  demigod: 25

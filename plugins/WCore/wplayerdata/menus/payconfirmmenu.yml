@@ -1,0 +1,137 @@
+menu:
+  name: "&0Pay %player%: $%amount%"
+  size: 27
+  items:
+    0:
+      material: "BOOK"
+      name: "&#00fbf1&lI&#00fce8&lN&#00fcde&lF&#00fdd5&lO"
+      lore:
+        - "&7Payment of $%amount% to %player%"
+      type: "NONE"
+      slot: 13
+    1:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 0
+    2:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 1
+    3:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 2
+    4:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 9
+    5:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 10
+    6:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 11
+    7:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 18
+    8:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 19
+    9:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&#2dfb00&lC&#26fb05&lO&#1efc0a&lN&#17fc10&lF&#0ffc15&lI&#08fd1a&lR&#00fd1f&lM"
+      lore:
+        - "&7Click to confirm payment"
+      type: "CONFIRM"
+      slot: 20
+    10:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 6
+    11:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 7
+    12:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 8
+    13:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 15
+    14:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 16
+    15:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 17
+    16:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 24
+    17:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 25
+    18:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&#fb0000&lC&#fb0000&lA&#fc0000&lN&#fc0000&lC&#fd0000&lE&#fd0000&lL"
+      lore:
+        - "&7Click to cancel"
+      type: "CANCEL"
+      slot: 26

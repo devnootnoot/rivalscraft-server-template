@@ -1,0 +1,26 @@
+patron-reminder-message:
+  - "&a&l(!)&a So far, you've spent %amount%! (Patron Rank) %progress%"
+giftcards-message-header:
+  - ""
+  - "&b&lALL YOUR GIFTCARDS"
+giftcards-message-template: "&f- $%amount% &7(%countdown%): &b%code%"
+
+giftcards-not-loaded-message: "&c&l(!)&C Your giftcards haven't loaded yet!"
+no-giftcards-message: "&C&l(!)&C You do not have any giftcards!"
+
+patron-rewards:
+  - "msg %player% you have been given patron!"
+  - "lp user %player% parent add patron"
+
+patron-rewards-global:
+  - "msg %player% you have been given patron!"
+  - "lp user %player% parent add patron"
+
+merge-wait-message: "&A&l(!)&A Your giftcards are now merging... Please wait for it to complete! (This may take several seconds)"
+merge-finish-message: "&a&l(!)&A Your giftcards have finished merging! Your new giftcard is: %code% &7(%countdown%) ($%amount%)"
+merge-not-enough-giftcards-message: "&C&l(!)&C You do not have enough giftcards for this!"
+
+# Delay before sending the patron reminder message. (In seconds)
+patron-message-delay: 5
+# Delay before sending the giftcard message. (In seconds)
+giftcard-message-delay: 10

@@ -1,0 +1,23 @@
+menu:
+  name: "&8Patron Rank"
+  size: 27
+  items:
+    1:
+      material: "BOOK"
+      name: "&a&lᴘʀᴏɢʀᴇꜱꜱ"
+      lore:
+        - "&fYou need to a total spend of $500"
+        - "&fon the store to unlock patron."
+        - ""
+        - "&f&lʏᴏᴜʀ ꜱᴘᴇɴᴅ"
+        - "&7$%amount%/$500 %progress% &f$500"
+      type: "NONE"
+      slot: 12
+    2:
+      material: "PLAYER_HEAD"
+      name: "&d&lʟɪꜱᴛ ᴏꜰ ᴘᴀᴛʀᴏɴꜱ"
+      lore:
+        - "&7Click here to view everyone"
+        - "&7with Patron Rank"
+      type: "LIST"
+      slot: 14

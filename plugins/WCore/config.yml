@@ -1,0 +1,21 @@
+redis-password: "EXCpLuEikHu8j44bLTLRbN4vBqUkFzgNmwcdyWZ8zsARfoVVmvDxNwbWUUbByETHjjZdakZmatyrHTQX76uiVc4bQ4V3eLLwVL2PrvFXhT5MFdGCeJvWpQ9b8N9MqeVJ"
+redis-ip: "10.0.0.1"
+redis-port: 6379
+
+mongodb-us-connection-string: "mongodb://admin:s4EuporPPC9HVPMkfWq8P96q@10.0.0.1:27017/"
+
+# The API server / port.
+grpc-ip: "10.0.0.3"
+grpc-port: 8192
+
+global-grpc-ip: "10.0.0.3"
+global-grpc-port: 25570
+
+gamemode: "testserver"
+server-name: "dev"
+
+features:
+  WPlayerData: true
+  WDiscordBot: true
+  WStore: true
+  WEssentials: true

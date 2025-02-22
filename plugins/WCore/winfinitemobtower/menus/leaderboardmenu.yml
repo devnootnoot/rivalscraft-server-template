@@ -1,0 +1,15 @@
+menu:
+  name: "&8Tower Leaderboard"
+  size: 54
+  # First number = place in top 10, second number = slot in menu. Supports up to 10
+  slots:
+    - "0-0"
+    - "1-1"
+    - "2-2"
+    - "3-3"
+    - "4-4"
+    - "5-5"
+    - "6-6"
+    - "7-7"
+    - "8-8"
+    - "9-9"

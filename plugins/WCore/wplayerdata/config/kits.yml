@@ -1,0 +1,262 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  testkit:
+    delay: 0
+    items:
+      - "/eco give {player} 10000"
+      - "NETHERITE_AXE 1 name:&bTest_Axe DURABILITY:1 SILK_TOUCH:1 MODEL_ID:0"
+  herobonus:
+    delay: 100
+    items:
+      - /eco give {player} 50000
+  paladinbonus:
+    delay: 100
+    items:
+      - /eco give {player} 100000
+      - /crates givekey {player} cosmetics 1
+      - /crates givekey {player} luxury 2
+  championbonus:
+    delay: 100
+    items:
+      - /eco give {player} 150000
+      - /crates givekey {player} cosmetics 1
+      - /crates givekey {player} luxury 3
+  demigodbonus:
+    delay: 100
+    items:
+      - /eco give {player} 250000
+      - /crates givekey {player} cosmetics 1
+      - /crates givekey {player} luxury 5
+
+
+
+  overlordhelmet:
+    delay: 100
+    items:
+      - /give {USERNAME} carved_pumpkin 1 {display:{Name:'{"text":"§f☠ §r§#OVERLORD HELMET §f☠","color":"#2983DE","bold":true,"italic":false}',Lore:['{"text":"§8Overlord Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Health Boost II","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}'],color:11259089},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"head",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"head",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"head",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100001,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  overlordchestplate:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_chestplate 1 {display:{Name:'{"text":"§f☠ §r§#OVERLORD CHESTPLATE §f☠","color":"#2983DE","bold":true,"italic":false}',Lore:['{"text":"§8Overlord Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Health Boost II","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}'],color:11259089},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"chest",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"chest",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"chest",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100001,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  overlordleggings:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_leggings 1 {display:{Name:'{"text":"§f☠ §r§#OVERLORD LEGGINGS §f☠","color":"#2983DE","bold":true,"italic":false}',Lore:['{"text":"§8Overlord Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Health Boost II","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}'],color:11259089},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"legs",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"legs",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"legs",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100001,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  overlordboots:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_boots 1 {display:{Name:'{"text":"§f☠ §r§#OVERLORD BOOTS §f☠","color":"#2983DE","bold":true,"italic":false}',Lore:['{"text":"§8Overlord Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Health Boost II","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}'],color:11259089},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"feet",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"feet",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"feet",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100001,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+
+
+  deadpoolhelmet:
+    delay: 100
+    items:
+      - /give {USERNAME} carved_pumpkin 1 {display:{Name:'{"text":"§r§#DEADPOOL HELMET","color":"#ff0021","bold":true,"italic":false}',Lore:['{"text":"§8Deadpool Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Resistance II","color":"#ff5a82","italic":false}'],color:12114324},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"head",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"head",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"head",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100009,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  deadpoolchestplate:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_chestplate 1 {display:{Name:'{"text":"§r§#DEADPOOL CHESTPLATE","color":"#ff0021","bold":true,"italic":false}',Lore:['{"text":"§8Deadpool Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Resistance II","color":"#ff5a82","italic":false}'],color:12114324},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"chest",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"chest",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"chest",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100002,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  deadpoolleggings:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_leggings 1 {display:{Name:'{"text":"§r§#DEADPOOL LEGGINGS","color":"#ff0021","bold":true,"italic":false}',Lore:['{"text":"§8Deadpool Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Resistance II","color":"#ff5a82","italic":false}'],color:12114324},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"legs",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"legs",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"legs",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100002,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  deadpoolboots:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_boots 1 {display:{Name:'{"text":"§r§#DEADPOOL BOOTS","color":"#ff0021","bold":true,"italic":false}',Lore:['{"text":"§8Deadpool Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Speed II","color":"#ff5a82","italic":false}','{"text":"§r§#- Resistance II","color":"#ff5a82","italic":false}'],color:12114324},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"feet",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"feet",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"feet",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100002,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+
+  wolverinehelmet:
+    delay: 100
+    items:
+      - /give {USERNAME} carved_pumpkin 1 {display:{Name:'{"text":"§r§#WOLVERINE HELMET","color":"#ffd828","bold":true,"italic":false}',Lore:['{"text":"§8Wolverine Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}','{"text":"§r§#- Haste II","color":"#ff5a82","italic":false}'],color:12096729},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"head",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"head",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"head",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100010,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  wolverinechestplate:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_chestplate 1 {display:{Name:'{"text":"§r§#WOLVERINE CHESTPLATE","color":"#ffd828","bold":true,"italic":false}',Lore:['{"text":"§8Wolverine Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}','{"text":"§r§#- Haste II","color":"#ff5a82","italic":false}'],color:12096729},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"chest",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"chest",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"chest",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100003,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  wolverineleggings:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_leggings 1 {display:{Name:'{"text":"§r§#WOLVERINE LEGGINGS","color":"#ffd828","bold":true,"italic":false}',Lore:['{"text":"§8Wolverine Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}','{"text":"§r§#- Haste II","color":"#ff5a82","italic":false}'],color:12096729},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"legs",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"legs",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"legs",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100003,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+  wolverineboots:
+    delay: 100
+    items:
+      - /give {USERNAME} leather_boots 1 {display:{Name:'{"text":"§r§#WOLVERINE BOOTS","color":"#ffd828","bold":true,"italic":false}',Lore:['{"text":"§8Wolverine Armor Set"}','{"text":""}','{"text":"Reset Vault Item ✔","color":"#ff0041","italic":false}','{"text":"(Can be transfered","color":"#8496b7","italic":false}','{"text":"between resets)","color":"#8496b7","italic":false}','{"text":""}','{"text":"§r§#Set Effect (When Worn)","color":"#f9003d","italic":false}','{"text":"§r§#- Regeneration I","color":"#ff5a82","italic":false}','{"text":"§r§#- Strength I","color":"#ff5a82","italic":false}','{"text":"§r§#- Haste II","color":"#ff5a82","italic":false}'],color:12096729},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"knockback_resistance",Amount:0.1,Operation:0,Slot:"feet",UUIDLeast:1l,UUIDMost:1l},{AttributeName:"generic.armor_toughness",Name:"armor_toughness",Amount:3.0,Operation:0,Slot:"feet",UUIDLeast:2l,UUIDMost:2l},{AttributeName:"generic.armor",Name:"armor",Amount:25.0,Operation:0,Slot:"feet",UUIDLeast:3l,UUIDMost:3l}],HideFlags:68,CustomModelData:100003,Enchantments:[{id:"minecraft:protection",lvl:6s},{id:"minecraft:fire_protection",lvl:6s},{id:"minecraft:blast_protection",lvl:6s},{id:"minecraft:projectile_protection",lvl:6s},{id:"minecraft:unbreaking",lvl:10s}]}
+
+
+
+
+  Specialaxe:
+    delay: 10
+    items:
+      - netherite_axe 1 name:&#24db91Special_Axe DURABILITY:1 SILK_TOUCH:1 DIG_SPEED:2
+  Specialpickaxe:
+    delay: 10
+    items:
+      - netherite_pickaxe 1 name:&#24db91Special_Pickaxe DURABILITY:1 SILK_TOUCH:1 DIG_SPEED:2
+  Specialshovel:
+    delay: 10
+    items:
+      - netherite_shovel 1 name:&#24db91Special_Shovel DURABILITY:1 SILK_TOUCH:1 DIG_SPEED:2
+  Specialhoe:
+    delay: 10
+    items:
+      - netherite_hoe 1 name:&#24db91Special_Hoe DURABILITY:1 SILK_TOUCH:1 DIG_SPEED:2
+        LOOT_BONUS_BLOCKS:3
+  Specialsword:
+    delay: 10
+    items:
+      - netherite_sword 1 name:&#24db91Special_Sword DURABILITY:1 DAMAGE_ALL:2 SWEEPING_EDGE:1
+        LOOT_BONUS_MOBS:2
+
+  starter:
+    delay: 86400
+    items:
+      - /crates givekey daily 1
+      - cooked_beef 32
+      - oak_boat
+      - iron_pickaxe 1 efficiency:1
+      - iron_axe 1 efficiency:1
+      - iron_hoe 1 efficiency:1
+      - diamond_sword 1 sharpness:1 unbreaking:1 looting:1 name:&bStarter_Sword
+      - diamond_helmet 1 protection:1 unbreaking:1 name:&bStarter_Helmet
+      - diamond_chestplate 1 protection:1 unbreaking:1 name:&bStarter_Chestplate
+      - diamond_leggings 1 protection:1 unbreaking:1 name:&bStarter_Leggings
+      - diamond_boots 1 protection:1 unbreaking:1 name:&bStarter_Boots
+      - golden_apple 1
+      - /ae givercbook COMMON {player} 1
+
+
+  starterfirstjoin:
+    delay: 86400
+    items:
+      - /crates givekey daily 1
+      - cooked_beef 32
+      - oak_boat
+      - iron_pickaxe 1 efficiency:1
+      - iron_axe 1 efficiency:1
+      - iron_hoe 1 efficiency:1
+      - diamond_sword 1 sharpness:1 unbreaking:1 looting:1 name:&bStarter_Sword
+      - diamond_helmet 1 protection:1 unbreaking:1 name:&bStarter_Helmet
+      - diamond_chestplate 1 protection:1 unbreaking:1 name:&bStarter_Chestplate
+      - diamond_leggings 1 protection:1 unbreaking:1 name:&bStarter_Leggings
+      - diamond_boots 1 protection:1 unbreaking:1 name:&bStarter_Boots
+      - golden_apple 1
+      - /ae givercbook COMMON {player} 1
+
+
+  hero:
+    delay: 259200
+    items:
+      - cooked_beef 64
+      - golden_carrot 16
+      - diamond_pickaxe 1 efficiency:2 unbreaking:2 fortune:1 name:&#a7fe0dHero_Pickaxe
+      - diamond_axe 1 efficiency:2 unbreaking:2 name:&#a7fe0dHero_Axe
+      - diamond_shovel 1 efficiency:2 unbreaking:2 name:&#a7fe0dHero_Shovel
+      - diamond_sword 1 sharpness:4 unbreaking:2 looting:1 name:&#a7fe0dHero_Sword
+      - diamond_helmet 1 protection:3 unbreaking:2 name:&#a7fe0dHero_Helmet
+      - diamond_chestplate 1 protection:3 unbreaking:2 name:&#a7fe0dHero_Chestplate
+      - diamond_leggings 1 protection:3 unbreaking:2 name:&#a7fe0dHero_Leggings
+      - diamond_boots 1 protection:3 unbreaking:2 name:&#a7fe0dHero_Boots
+      - diamond_block 8
+      - gold_block 8
+      - /ae givercbook EPIC {player} 1
+      - /ae givercbook COMMON {player} 2
+      - /ae giveitem {player} secret 5 EPIC
+
+      - golden_apple 5
+      - enchanted_golden_apple 1
+      - totem_of_undying 1
+      - experience_bottle 128
+      - /lsc giveitem {player} heart_tier1 1
+  paladin:
+    delay: 259200
+    items:
+      - cooked_beef 64
+      - golden_carrot 32
+      - diamond_pickaxe 1 efficiency:3 unbreaking:3 fortune:2 mending:1 name:&#ffc62fPaladin_Pickaxe
+      - diamond_axe 1 efficiency:3 unbreaking:3 mending:1 name:&#ffc62fPaladin_Axe
+      - diamond_shovel 1 efficiency:3 unbreaking:3 mending:1 name:&#ffc62fPaladin_Shovel
+      - diamond_sword 1 sharpness:5 unbreaking:3 mending:1 looting:2 name:&#ffc62fPaladin_Sword
+      - diamond_helmet 1 protection:4 unbreaking:3 mending:1 name:&#ffc62fPaladin_Helmet
+      - diamond_chestplate 1 protection:4 unbreaking:3 mending:1 name:&#ffc62fPaladin_Chestplate
+      - diamond_leggings 1 protection:4 unbreaking:3 mending:1 name:&#ffc62fPaladin_Leggings
+      - diamond_boots 1 protection:4 unbreaking:3 mending:1 name:&#ffc62fPaladin_Boots
+      - diamond_block 16
+      - gold_block 16
+      - netherite_block 4
+      - /ae givercbook EPIC {player} 2
+      - /ae givercbook COMMON {player} 3
+      - /ae giveitem {player} secret 10 EPIC
+      - golden_apple 64
+      - enchanted_golden_apple 10
+      - totem_of_undying 1
+      - experience_bottle 256
+      - /lsc giveitem {player} heart_tier1 2
+  champion:
+    delay: 259200
+    items:
+      - cooked_beef 64
+      - golden_carrot 64
+      - netherite_pickaxe 1 efficiency:4 unbreaking:3 fortune:3 mending:1 name:&#3daaffChampion_Pickaxe
+      - netherite_axe 1 efficiency:4 unbreaking:3 mending:1 name:&#3daaffChampion_Axe
+      - netherite_shovel 1 efficiency:4 unbreaking:3 mending:1 name:&#3daaffChampion_Shovel
+      - netherite_sword 1 sharpness:5 unbreaking:3 mending:1 looting:3 name:&#3daaffChampion_Sword
+      - netherite_helmet 1 protection:4 unbreaking:3 mending:1 name:&#3daaffChampion_Helmet
+      - netherite_chestplate 1 protection:4 unbreaking:3 mending:1 name:&#3daaffChampion_Chestplate
+      - netherite_leggings 1 protection:4 unbreaking:3 mending:1 name:&#3daaffChampion_Leggings
+      - netherite_boots 1 protection:4 unbreaking:3 mending:1 name:&#3daaffChampion_Boots
+      - diamond_block 16
+      - gold_block 16
+      - emerald_block 16
+      - netherite_block 8
+      - /ae givercbook LEGENDARY {player} 1
+      - /ae givercbook EPIC {player} 3
+      - /ae givercbook COMMON {player} 4
+      - /ae giveitem {player} secret 20 EPIC
+      - golden_apple 128
+      - enchanted_golden_apple 30
+      - totem_of_undying 1
+      - experience_bottle 256
+      - /lsc giveitem {player} heart_tier1 3
+  demigod:
+    delay: 259200
+    items:
+      - cooked_beef 64
+      - golden_carrot 128
+      - netherite_pickaxe 1 efficiency:5 unbreaking:5 fortune:3 mending:1 name:&#dc0027Demigod_Pickaxe
+      - netherite_axe 1 efficiency:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Axe
+      - netherite_shovel 1 efficiency:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Shovel
+      - netherite_sword 1 sharpness:5 unbreaking:5 mending:1 looting:3 name:&#dc0027Demigod_Sword
+      - netherite_helmet 1 protection:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Helmet
+      - netherite_chestplate 1 protection:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Chestplate
+      - netherite_leggings 1 protection:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Leggings
+      - netherite_boots 1 protection:5 unbreaking:5 mending:1 name:&#dc0027Demigod_Boots
+      - gold_block 32
+      - diamond_block 32
+      - emerald_block 32
+      - netherite_block 16
+      - /ae givercbook LEGENDARY {player} 3
+      - /ae givercbook EPIC {player} 5
+      - /ae givercbook COMMON {player} 8
+      - /ae giveitem {player} secret 50 EPIC
+      - golden_apple 256
+      - enchanted_golden_apple 64
+      - totem_of_undying 1
+      - experience_bottle 256
+      - /lsc giveitem {player} heart_tier1 5
+
+  fishingrod:
+    delay: 100
+    items:
+      - fishing_rod 1

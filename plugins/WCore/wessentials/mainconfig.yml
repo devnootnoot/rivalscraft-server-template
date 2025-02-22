@@ -1,0 +1,11 @@
+# How long a teleport should warm up, not allowing players to move, or it'll cancel.
+#
+# In seconds.
+teleport-warmup: 5
+
+nick-max-length: 16
+command-cooldowns:
+  - "fix:180" # [command without /] : [cooldown in seconds]
+  - "heal:180"
+  - "feed:180"
+  - "pay:3"

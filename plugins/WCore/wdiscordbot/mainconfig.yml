@@ -1,0 +1,49 @@
+# How often the system should notify players that they haven't linked their account yet.
+# (in seconds)
+notification-interval: 5
+# Message that's sent every time players are notified
+notification-message: "&8[&b&lDISCORD BOT&8] &fYou haven't linked your discord account yet! Do &n/link&f for free rewards!"
+
+# The command that's executed when they finish linking. It caches until they log on, if they aren't currently online.
+#
+# Do not put a '/' in front.
+link-reward:
+  - "msg %player% Yippee!"
+
+link-reward-global:
+  - "msg %player% Yippee! (Global)"
+
+
+unlink-reward:
+  - "msg %player% unlink successful!"
+
+unlink-reward-global:
+  - "msg %player% unlink successful!"
+
+# The commands that are executed on join when the user has boosted the discord
+boost-reward:
+  - "msg %player% Boosting!"
+
+boost-reward-global:
+  - "msg %player% Boosting (global)!"
+
+ranks:
+  # warning: when a user unlink his account, he will get removed of all configured roles
+  patron:
+    id: "1125892982713888841" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.patron" # the permission the player should have on minecraft
+  hero:
+    id: "1323406052544217239" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.hero" # the permission the player should have on minecraft
+  paladin:
+    id: "1323406833355984949" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.paladin" # the permission the player should have on minecraft
+  demigod:
+    id: "1323406245545381939" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.demigod" # the permission the player should have on minecraft
+  champion:
+    id: "1323406765605392474" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.champion" # the permission the player should have on minecraft
+  donator:
+    id: "1323407092341805110" # the discord id of the role, need developer mod enabled to get it
+    permission: "group.hero" # the permission the player should have on minecraft
